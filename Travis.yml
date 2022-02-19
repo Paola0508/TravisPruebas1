@@ -1,0 +1,9 @@
+language: python
+python:
+-"3"
+#comandos para instalar dependencias
+install:
+-pip install -r requirements.txt
+#comando para correr 
+script:
+-pytest #libreria de para realizar tests
